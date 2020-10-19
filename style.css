@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31, 93, 201);
+
+}
+form{
+    text-align: center;
+	background: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    width: 80%;
+	max-width: 400px;
+	margin: 40px auto;
+	text-align: center;
+    
+}
+form label{
+	text-align: left;
+	padding: 5px 0;
+	color: #565151;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+form .form {
+    padding: 30px 40px;
+    display: flex;
+	flex-direction: column;
+}
+form .form input{
+	background: #E8F1F6;
+	padding: 10px 10px;
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 10px;
+}
+.form h2{
+    color: rgb(6, 40, 99);
+    margin: 10px 0;
+}
+.form .button{
+	background: #083E9E;
+	border-radius: 14px 14px 14px 14px;
+	border: none;
+	padding: 15px 0;
+	color: white;
+	margin: 10px auto;
+    font-weight: bold;
+    width: 50%;
+}
+.viewPage p{
+    text-align: center;
+    color: #ffffff;
+}
+.viewPage p a{
+    text-decoration: none;
+    color: lightsalmon;
+}
+.welcome{
+    text-align: center;
+    margin: 50px 0;
+}
+.welcome h1{
+    color: lightblue;
+}
+.welcome h3{
+    color: lightsalmon;
+}
